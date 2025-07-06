@@ -1,0 +1,30 @@
+using System;
+
+namespace Fibonacci_sequence
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int number = int.Parse(Console.ReadLine());
+            int num = 0;
+            int num2 = 1;
+
+            for (int i = 1; i < number; i++)
+            {
+                
+                Console.WriteLine(num);
+                Console.WriteLine(num2);
+                num = num + num2;
+                num2 = num + num2;
+
+
+            }
+            
+            
+
+        }
+      
+    }
+}
